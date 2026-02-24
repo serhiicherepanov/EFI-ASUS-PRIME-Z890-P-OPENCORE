@@ -8,6 +8,7 @@
 - This repository contains an OpenCore EFI for `ASUS PRIME Z890-P`.
 - Current status: the config is verified to work only with `macOS Sequoia`.
 - Bootloader path: `BOOT/BOOTx64.efi`, main config: `OC/config.plist`.
+- Config templates: `OC/config.plist.dist` (default) and `OC/config.install.dist.plist` (installer/troubleshooting profile).
 - Preferred SMBIOS for this setup: `MacPro7,1` (based on the current working config).
 
 ## Change Priorities
@@ -27,6 +28,7 @@
 - Keep compatibility status (macOS version) up to date.
 - Document ACPI, kext, driver, and boot-arg changes.
 - Record known limitations and validation status.
+- Keep template usage instructions up to date (`config.plist.dist` vs `config.install.dist.plist`).
 
 ## Security Constraints
 - Never commit serials, MLB, SystemUUID, ROM, or other unique identifiers.
